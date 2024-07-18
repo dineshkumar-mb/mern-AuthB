@@ -9,7 +9,7 @@ import { UserRouter } from './routes/user.js'
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ["https://chipper-marigold-f7720c.netlify.app"],
+    origin: [" https://heroic-cactus-c569b6.netlify.app"],
     credentials: true
 }))
 app.use(cookieParser())
