@@ -67,7 +67,7 @@ router.post("/forgot-password", async (req, res) => {
       from: "dineshmechpct@gmail.com",
       to: email,
       subject: "Reset Password",
-      text: `http://localhost:5173/resetPassword/${encodedToken}`,
+      text: ` https://heroic-cactus-c569b6.netlify.app/resetPassword/${encodedToken}`,
     };
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
